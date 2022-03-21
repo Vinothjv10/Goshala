@@ -21,5 +21,14 @@
     width: 465px;
     height: 550px;
     margin: 10px;
-    background: green;
+    /* background: green; */
+}
+.dialog_address_1{
+    font-size: 25px;
+    text-align: left;
+}
+.address_para{
+    margin-left: 10%;
+    width: 75%;
+    font-size: 20px;
 }
