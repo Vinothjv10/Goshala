@@ -1,0 +1,58 @@
+<div class="centers">
+    <div class="center_title">Goshala Centers</div>
+
+    <div class="row d-flex flex-wrap justify-content-center" id="centers_container">
+
+        <div class="container_1">
+            <div class="" style="text-align:center">
+                <img style="width: 250px; height: 250px; border-radius: 15px;" src="./assets/goshala_company_1.jpg">
+            </div>
+            <div class="company_title m-5"
+                style="text-align: center; font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                GODHAM KRISHI GO-RAM ANUSANDHAN
+            </div>
+            <div class="center_btn m-2" style="text-align: center;">
+                <button (click)="show = !show" class="btn btn-primary"> View </button>
+            </div>
+            <app-dialog [(visible)]="show" title="Details Card" data-popup="width:300;height:850">
+                <div class="dislog_container"
+                    style="text-align: center; font-size: 3rem; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                    GODHAM KRISHI GO-RAM ANUSANDHAN
+                </div>
+
+                <div class="row d-flex flex-wrap justify-content-center">
+                    <div class="child">
+                        <div class="dialoge_info" style="text-align: center;">
+                            <img src="./assets/goshala_company_1.jpg" style="height: 150px;">
+                            <div class="" style=" font-size: 15px;">
+                                Goshalas (or Gaushalas) are protective shelters for the cows in India. Goshalas focus on
+                                treating cows well, because of their religious significance in Hinduism and consequent
+                                cultural sensitivity towards their welfare. A cow is one of the most important aspects
+                                of
+                                our society.
+                            </div>
+                        </div>
+                        <div class="dialog_activities mt-3">
+                            <p style="font-size: 2rem; font-family: cursive;">DAILY ACTIVITIES</p>
+                            <p>The cows wake up between 4:30 am to 5:00 am. At that time, the Goshala team collects the
+                                cows’ first urine, which is considered highly pure, holistic, and incredibly useful for
+                                medicines.</p>
+                        </div>
+                    </div>
+                    <div class="child" style="text-align: center;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24175.98759536831!2d76.8137354563733!3d29.487996008166917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390de01e3a60c249%3A0x3e7ed7bf508ae167!2sBalraja%20Gaushala%20Ballah%2C%20Asandh%20Rd%2C%20Haryana%20132040!5e0!3m2!1sen!2sin!4v1647880467082!5m2!1sen!2sin"
+                            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                </div>
+            </app-dialog>
+
+        </div>
+
+        <div class="container_1"></div>
+        <div class="container_1"></div>
+        <div class="container_1"></div>
+
+    </div>
+</div>

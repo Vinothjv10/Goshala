@@ -1,0 +1,180 @@
+.carousel-container{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    border-radius: 5px;
+    /* box-shadow: 0 6px 12px white; */
+}
+.carousel-container img{
+    margin-top: 50px;
+    display: none;
+    width: 100%;
+    border-radius: 15px;
+}
+/* #image_size{
+    width: 700px;
+} */
+.carousel-container img.image-active{
+    display: block;
+    width: 100%;
+    height: 800px;
+}
+
+/* dots */
+.carousel-dot-container{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+.dot{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: opacity 0.6s ease;
+    opacity: 0.5;
+}
+.active,
+.dot:hover{
+    opacity: 1;
+}
+
+.fade_image{
+    animation-name: fade1;
+    animation-duration: 1.5s;
+} 
+@keyframes fade1 {
+    from{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.btn-carousel{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+}
+.btn-prev{
+    left: 0;
+}
+
+.icon-carousel{
+    color: #fff;
+    opacity: 0.5;
+    transition: all 0.15s ease;
+}
+.icon-carousel:hover{
+    opacity: 0.9;
+}
+.icon-carousel:active{
+    opacity: 0.5;
+}
+.icon-prev{
+    font-size: 30px;
+}
+
+.btn-next{
+    right: 0;
+}
+.icon-next{
+    font-size: 30px;
+}
+
+/* Contents */
+
+#content_1{
+    height: 400px;
+    width: 500px;
+}
+#content_2{
+    position: relative;
+    height: 400px;
+    width: 350px;
+}
+#content_3{
+    position: relative;
+    height: 400px;
+    width: 350px;
+}
+#content_1_title{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#content_1_descrip{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#content_1_para{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#content_3_title{
+    color: aqua;
+    font-size: 65px;
+    font-family: cursive;
+}
+#content_3_descrip{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#content_3_para{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media(max-width: 800px)
+{
+    .content_block{
+        height: inherit;
+    }
+}
+
+/* Youtube */
+
+#youtube{
+    width: 100%;
+    height: 600px;
+}
+#youtube_content{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+#youtube_video{
+    width: 500px;
+    height: 300px;
+}
+.youtube_button{
+    text-align: center;
+}
+#btn{
+    width: 200px;
+    height: 50px;
+}
+@media(max-width:800px){
+    #youtube_video{
+        width: 100%;
+        height: inherit;
+    }
+}
