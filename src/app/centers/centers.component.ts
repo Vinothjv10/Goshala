@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CentersComponent implements OnInit {
 
-  show: any;
-
+  show_1: any;
+  show_2: any;
+  show_3: any;
+  show_4: any;
 
   constructor() { }
 
