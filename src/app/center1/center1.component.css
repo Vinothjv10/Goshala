@@ -1,0 +1,77 @@
+.container_block{
+    width: 100%;
+    height: inherit;
+    margin: 10px;
+    /* background: green; */
+}
+.row{
+    margin: 0%;
+}
+.dislog_container{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+     font-size: 5rem; 
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#center_descrip{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 3rem;
+}
+.dialog_address_1{
+    font-size: 25px;
+    text-align: left;
+}
+.address_para{
+    margin-left: 10%;
+    width: 75%;
+    font-size: 20px;
+}
+
+#map{
+    width: 800px;
+    height: 400px;
+}
+/* for desktop */
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+.whatsapp_icon{
+    margin-top: 5px;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+    .dislog_container{
+        height: inherit;
+    }
+    #map{
+        width: 100%;
+    }
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 55px;
+        height: 55px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}

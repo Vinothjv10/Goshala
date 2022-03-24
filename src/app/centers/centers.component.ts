@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-centers',
@@ -12,9 +13,12 @@ export class CentersComponent implements OnInit {
   show_3: any;
   show_4: any;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+  center1() {
+    this.router.navigateByUrl('center1');
   }
 
 }
