@@ -20,5 +20,13 @@ export class CentersComponent implements OnInit {
   center1() {
     this.router.navigateByUrl('center1');
   }
-
+  center2() {
+    this.router.navigateByUrl('center2');
+  }
+  center3() {
+    this.router.navigateByUrl('center3');
+  }
+  center4() {
+    this.router.navigateByUrl('center4');
+  }
 }
